@@ -313,7 +313,7 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 **Aboulkassm**
 - GitHub: [@aboulkassm](https://github.com/aboulkassm)
-- Email: abdo.a.26498@hotmail.com
+
 
 ## Acknowledgments
 
