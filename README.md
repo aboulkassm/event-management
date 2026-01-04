@@ -34,7 +34,7 @@ Before you begin, ensure you have the following installed:
 - PHP >= 8.2
 - Composer
 - MySQL or PostgreSQL
-- Node.js & NPM (for frontend assets)
+- Node.js & NPM (optional - only for frontend assets)
 
 ## Installation
 
@@ -49,18 +49,13 @@ Before you begin, ensure you have the following installed:
    composer install
    ```
 
-3. **Install Node dependencies**
-   ```bash
-   npm install
-   ```
-
-4. **Environment Setup**
+3. **Environment Setup**
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
 
-5. **Configure Database**
+4. **Configure Database**
    
    Edit your `.env` file with your database credentials:
    ```env
@@ -72,17 +67,17 @@ Before you begin, ensure you have the following installed:
    DB_PASSWORD=your_password
    ```
 
-6. **Run Migrations**
+5. **Run Migrations**
    ```bash
    php artisan migrate
    ```
 
-7. **Seed Database (Optional)**
+6. **Seed Database (Optional)**
    ```bash
    php artisan db:seed
    ```
 
-8. **Start the Development Server**
+7. **Start the Development Server**
    ```bash
    php artisan serve
    ```
