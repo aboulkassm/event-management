@@ -303,7 +303,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Security
 
-If you discover any security-related issues, please email abdo.a.26498@hotmail.com instead of using the issue tracker.
+If you discover any security-related issues, please let me know.
 
 ## License
 
